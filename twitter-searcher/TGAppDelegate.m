@@ -11,13 +11,11 @@
 @implementation TGAppDelegate
 
 @synthesize window = _window;
+@synthesize queue = _queue;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    self.queue = [[NSOperationQueue alloc] init];
     return YES;
 }
 

@@ -13,6 +13,9 @@
 		E7E27B8A161A0612002D499D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7E27B88161A0612002D499D /* InfoPlist.strings */; };
 		E7E27B8C161A0612002D499D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E27B8B161A0612002D499D /* main.m */; };
 		E7E27B90161A0612002D499D /* TGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E27B8F161A0612002D499D /* TGAppDelegate.m */; };
+		E7E27BA4161A0C20002D499D /* TGVSearchiewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E27BA3161A0C20002D499D /* TGVSearchiewController.m */; };
+		E7E27BA6161A0D23002D499D /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7E27BA5161A0D23002D499D /* Storyboard.storyboard */; };
+		E7E27BAC161A0E2C002D499D /* TGResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E27BAB161A0E2C002D499D /* TGResultsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +23,17 @@
 		E7E27B7F161A0612002D499D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E7E27B81161A0612002D499D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E7E27B83161A0612002D499D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		E7E27B87161A0612002D499D /* twitter-searcher-Info.plist */ = {isa = PBXFileReference; path = "twitter-searcher-Info.plist"; sourceTree = "<group>"; };
+		E7E27B87161A0612002D499D /* twitter-searcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "twitter-searcher-Info.plist"; sourceTree = "<group>"; };
 		E7E27B89161A0612002D499D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E7E27B8B161A0612002D499D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E7E27B8D161A0612002D499D /* twitter-searcher-Prefix.pch */ = {isa = PBXFileReference; path = "twitter-searcher-Prefix.pch"; sourceTree = "<group>"; };
-		E7E27B8E161A0612002D499D /* TGAppDelegate.h */ = {isa = PBXFileReference; path = TGAppDelegate.h; sourceTree = "<group>"; };
+		E7E27B8D161A0612002D499D /* twitter-searcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "twitter-searcher-Prefix.pch"; sourceTree = "<group>"; };
+		E7E27B8E161A0612002D499D /* TGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGAppDelegate.h; sourceTree = "<group>"; };
 		E7E27B8F161A0612002D499D /* TGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TGAppDelegate.m; sourceTree = "<group>"; };
+		E7E27BA2161A0C20002D499D /* TGVSearchiewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGVSearchiewController.h; sourceTree = "<group>"; };
+		E7E27BA3161A0C20002D499D /* TGVSearchiewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGVSearchiewController.m; sourceTree = "<group>"; };
+		E7E27BA5161A0D23002D499D /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		E7E27BAA161A0E2C002D499D /* TGResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGResultsViewController.h; sourceTree = "<group>"; };
+		E7E27BAB161A0E2C002D499D /* TGResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGResultsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +83,11 @@
 				E7E27B8E161A0612002D499D /* TGAppDelegate.h */,
 				E7E27B8F161A0612002D499D /* TGAppDelegate.m */,
 				E7E27B86161A0612002D499D /* Supporting Files */,
+				E7E27BA2161A0C20002D499D /* TGVSearchiewController.h */,
+				E7E27BA3161A0C20002D499D /* TGVSearchiewController.m */,
+				E7E27BA5161A0D23002D499D /* Storyboard.storyboard */,
+				E7E27BAA161A0E2C002D499D /* TGResultsViewController.h */,
+				E7E27BAB161A0E2C002D499D /* TGResultsViewController.m */,
 			);
 			path = "twitter-searcher";
 			sourceTree = "<group>";
@@ -142,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7E27B8A161A0612002D499D /* InfoPlist.strings in Resources */,
+				E7E27BA6161A0D23002D499D /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +168,8 @@
 			files = (
 				E7E27B8C161A0612002D499D /* main.m in Sources */,
 				E7E27B90161A0612002D499D /* TGAppDelegate.m in Sources */,
+				E7E27BA4161A0C20002D499D /* TGVSearchiewController.m in Sources */,
+				E7E27BAC161A0E2C002D499D /* TGResultsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +275,7 @@
 				E7E27B95161A0612002D499D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
